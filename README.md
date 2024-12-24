@@ -9,7 +9,7 @@ TrainMaster is a comprehensive train management system that combines modern tech
 ![TrainMaster Pipeline](Pipline%20image/TrainMaster.jpg)
 
 ## 🎥 Demo
-Watch our system in action: [TrainMaster Demo Video](https://youtu.be/oXnukq-EdlU)
+[![TrainMaster Demo Video](https://img.youtube.com/vi/oXnukq-EdlU/maxresdefault.jpg)](https://youtu.be/oXnukq-EdlU)
 
 ## 🛠️ Technology Stack
 - **Backend**: Spring Boot
