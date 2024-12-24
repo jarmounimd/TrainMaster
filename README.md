@@ -48,15 +48,6 @@ TrainMaster is a comprehensive train management system that combines modern tech
 ```
 Spring Boot → Apache Kafka → PySpark → Real-time Dashboard
 ```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Java 17 or higher
-- Python 3.8 or higher
-- Docker and Docker Compose
-- Maven
-
 ## 📁 Project Structure
 ```
 TrainMaster/
@@ -71,12 +62,6 @@ TrainMaster/
 - Pattern-based anomaly detection
 - Comprehensive audit logging
 - Secure user authentication
-
-## 📊 Analytics
-Access Jupyter notebooks at:
-```
-http://localhost:8888
-```
 
 ## 🤝 Contributing
 Contributions are welcome!
