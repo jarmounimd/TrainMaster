@@ -57,32 +57,6 @@ Spring Boot → Apache Kafka → PySpark → Real-time Dashboard
 - Docker and Docker Compose
 - Maven
 
-### Installation Steps
-
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/TrainMaster.git
-```
-
-2. Start the Docker containers
-```bash
-docker-compose up -d
-```
-
-3. Build and run the Spring Boot backend
-```bash
-cd src
-mvn clean install
-mvn spring-boot:run
-```
-
-4. Build and run the JavaFX frontend
-```bash
-cd frontEnd
-mvn clean install
-mvn javafx:run
-```
-
 ## 📁 Project Structure
 ```
 TrainMaster/
@@ -90,23 +64,6 @@ TrainMaster/
 ├── frontEnd/              # JavaFX frontend
 ├── data/                  # Jupyter notebooks and analytics
 └── docker-compose.yml     # Docker configuration
-```
-
-## 💡 Configuration
-
-### Kafka Configuration
-Default Kafka broker: `localhost:9092`
-Topics:
-- booking-events
-- user-activities
-- system-logs
-
-### Database Configuration
-Configure MySQL connection in `application.properties`:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/trainmaster
-spring.datasource.username=your_username
-spring.datasource.password=your_password
 ```
 
 ## 🔒 Security
@@ -122,7 +79,7 @@ http://localhost:8888
 ```
 
 ## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome!
 
 ## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
